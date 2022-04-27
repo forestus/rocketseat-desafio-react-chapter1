@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
+    "start": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
   },
